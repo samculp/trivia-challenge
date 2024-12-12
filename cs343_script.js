@@ -76,5 +76,5 @@ refreshButton.addEventListener("click", () => {
   refreshButton.style.display = "none";
   submitButton.disabled = false;
 
-  document.getElementById("title").scrollIntoView({behavior: "smooth"});
+  window.scrollTo({top: 0, behavior: "smooth"});
 })
